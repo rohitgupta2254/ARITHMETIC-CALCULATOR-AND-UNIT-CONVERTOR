@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    /* background-color: rgb(26, 25, 25); */
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url('./MA.png'); /* Replace 'path/to/spacex-image.jpg' with the actual path to your SpaceX image file */
+    background-size: cover;
+    overflow:hidden;
+
+  
+    
+
+}
+
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: #352F44;
+    position: fixed;
+
+   
+}
+
+a{
+    color: #E5C3A6;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.main{
+    height: 400px;
+    width: 500px;
+    background-color: #FAF0E6;
+    position: absolute;
+    top: 200px;
+    border: 10px solid #665e7a;
+    border-radius: 15px;
+}
+
+#btn1{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 225px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    border: 2px solid whitesmoke;
+}
+#btn2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 305px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    border: 2px solid whitesmoke;
+}
+
+#btn3{
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    top: 385px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    border: 2px solid whitesmoke;
+    
+}
+
+#btn4{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 465px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    border: 2px solid whitesmoke;
+    
+}
+
+#btn4.active,
+#btn4:active {
+    background-color: #a67851;
+}
+
+
+#btn5{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 545px;
+    left: 340px;
+    font-size: 20px;
+    background-color: #5C5470;
+    color: white;
+    border-radius:10px;
+    border: 2px solid whitesmoke;
+}
+
+#btn1:active,#btn2:active,#btn3:active,#btn4:active,#btn5:active{
+    /* color: black; */
+    background-color: #a67851;
+}
+
+
+
+#last{
+    position: absolute;
+    top: 650px;
+    padding: 10px;
+    border: 2px solid rgb(200, 181, 181);
+    border-radius: 10px;
+    background-color:rgb(78, 11, 79) ;
+    color:whitesmoke;
+    left: 620px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#last:active{
+    opacity: 0.8;
+}
+
+
+.initial {
+    display: flex;
+    height: 25%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.iu {
+    width: 50%;
+}
+
+.final {
+    display: flex;
+    height: 25%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.fu {
+    width: 50%;
+}
+
+input {
+    width: 100px;
+    margin-left: 50px;
+    height: 25px;
+    background: none;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+
+#convertbtn {
+    margin-left: 212.5px;
+    width: 75px;
+    height:45px;
+    border: 2px solid rgb(200, 181, 181);
+    border-radius: 10px;
+    background-color:rgb(78, 11, 79) ;
+    color:whitesmoke;
+
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+#dd {
+    margin-left: 50px;
+    height: 30px;
+    font-size: 15px;
+    background: none;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+
+.opt {
+    background-color: rgb(78, 11, 79);
+    color:white;
+}
+
+h2 {
+    text-align: center;
+    color: #282336;
+}
+
+hr{
+   width: 50%;
+   border: 4px dotted black;
+   border-bottom: none;
+
+}
